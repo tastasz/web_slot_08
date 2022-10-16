@@ -1,4 +1,4 @@
-<div class="nav-bar">
+<div class="nav-bar d-none d-xl-block">
     <nav class="container navbar navbar-expand-xl navbar-dark">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -40,10 +40,51 @@
             <a href="./login.html" style="text-decoration: none;">
                 <img src="./static/button/เข้าสู่ระบบ.png" height="33px" class="btn-login">
             </a>
-
-
         </div>
     </nav>
+</div>
+
+
+<div class="new-nav text-white w-100 d-block d-xl-none" style="position:fixed;  bottom:0;z-index: 100;">
+    <div class="row w-100  bg-new-nav" style="margin-left:0px !important;">
+        <div class="col-3 d-flex justify-content-center align-items-center py-2 " style="border: 1px solid black;">
+            <a href="/index.html" class="d-flex justify-content-center align-items-center flex-column"
+                style="text-decoration: none;">
+                <div class="text-center">
+                    <img class="img-new-nav" src="./static/sitemap/home.png" alt="">
+                    <p class="mb-0 text-black" style="font-size: 0.8rem;">หน้าแรก</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-3 d-flex justify-content-center align-items-center py-2 " style="border: 1px solid black;">
+            <a href="/register.html" class="d-flex justify-content-center align-items-center flex-column"
+                style="text-decoration: none;">
+                <div class="text-center">
+                    <img class="img-new-nav" src="./static/sitemap/add.png" alt="">
+                    <p class="mb-0 text-black" style="font-size: 0.8rem;">สมัครสมาชิก</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-3 d-flex justify-content-center align-items-center py-2 " style="border: 1px solid black;">
+            <a href="/promotion.html" class="d-flex justify-content-center align-items-center flex-column"
+                style="text-decoration: none;">
+                <div class="text-center">
+                    <img class="img-new-nav" src="./static/sitemap/phone.png" alt="">
+                    <p class="mb-0 text-black" style="font-size: 0.8rem;">โปรโมชั่น</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-3 d-flex justify-content-center align-items-center py-2 " style="border: 1px solid black;">
+            <a href="#" class="d-flex justify-content-center align-items-center flex-column"
+                style="text-decoration: none;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <div class="text-center">
+                    <img class="img-new-nav" src="./static/sitemap/chat.png" alt="">
+                    <p class="mb-0 text-black" style="font-size: 0.8rem;">ติดต่อเรา</p>
+                </div>
+            </a>
+        </div>
+
+    </div>
 </div>
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">

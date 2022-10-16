@@ -7,6 +7,10 @@ body {
     color: white !important;
 }
 
+.new-nav .bg-new-nav {
+    background: transparent linear-gradient(180deg, #8f6B29, #e3c87d, #DF9F28) 0% 0% no-repeat padding-box;
+}
+
 :root {
     --color-main: #ffdd00;
     --color-main2: #ff801f;
@@ -192,6 +196,18 @@ body {
         width: 80px;
     }
 
+    .img-new-nav {
+        width: 24px;
+    }
+
+    .main-section,
+    .bg-header {
+        padding-top: 0rem !important;
+    }
+
+    .footer-space-for-new-nav {
+        padding-bottom: 63px;
+    }
 }
 
 .bg-header-3 {
